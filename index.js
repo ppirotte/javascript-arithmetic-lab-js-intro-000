@@ -29,11 +29,11 @@ function decrement(a) {
 }
 
 function makeInt(a) {
-  parseInt(a, 10)
+  a = parseInt(a, 10)
   return (a)
 }
 
 function preserveDecimal(a) {
-  parseFloat(a)
+  a = parseFloat(a)
   return (a)
 }
